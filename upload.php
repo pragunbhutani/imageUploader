@@ -1,6 +1,6 @@
 <?php
 
-	require('settings.php');
+	require('includes/settings.php');
 
 	if ((($_FILES["img_file"]["type"] == "image/gif")
 	|| ($_FILES["img_file"]["type"] == "image/jpeg")

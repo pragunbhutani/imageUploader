@@ -1,6 +1,6 @@
 <?php
 
-	require('settings.php');
+	require('includes/settings.php');
 
 	if(isset($_POST['delete_id']) && !empty($_POST['delete_id']))	{
 		$delete_id = mysql_real_escape_string($_POST['delete_id']);

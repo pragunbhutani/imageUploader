@@ -32,7 +32,7 @@
 
 				<?php
 
-				include('settings.php');
+				include('includes/settings.php');
 
 				$result = mysqli_query($con, "SELECT * FROM " . $table_for_images . " ORDER BY id DESC");
 

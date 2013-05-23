@@ -22,7 +22,7 @@
 			<div class="span8 offset2">
 
 				<div class="messages text-center" id="message">
-					<?php include('messages.php'); ?>
+					<?php include('includes/messages.php'); ?>
 				</div>
 
 				<form method="post" action="upload.php" enctype="multipart/form-data" class="form-horizontal" id="form">
